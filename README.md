@@ -1,0 +1,1 @@
+Esse site foi feito apenas com HTML5 e CSS3, sendo meu primeiro site feito. foi bastante complexo no começo, mas com os conhecimentos adquirido em aulas e cursos não demorou para que eu desenovesse sem muitas dificuldades.
