@@ -307,58 +307,82 @@ a {
     color: #FFF;
     opacity: 0.6;
   }
+  
+  .menu-mobile{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-color: #00000069;
+    top: 1px;
+    left: 0;
+    width: 100%;    
+    height: 0vh;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+  }
 
- @media screen and (max-width: 700px){
-    
-    /* CABECALHO*/
-    .container-hero{
-        flex-direction: column-reverse;
-        display: flex;
-        justify-content: space-around;
-        height: 340px;
-    }
-    /* menu */
-    .nav-list{
-        display: none;
-    }
+  .menu-mobile nav a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
 
-    .hamburguer{
-        display: block;
+}
+  
+  @media screen and (max-width: 700px){
+      
+      /* CABECALHO*/
+      .container-hero{
+          flex-direction: column-reverse;
+          display: flex;
+          justify-content: space-around;
+          height: 340px;
+        }
+        /* menu */
+        .nav-list{
+            display: none;
+        }
+        
+        .hamburguer{
+            display: block;
+            
+        }
+        
+        /* container */
+        .Gabriel{
+            font-size: 30PX;
+        }
+        
+        .fotinha{
+            max-width: 80%;
+            max-height: 80%;
+        }
+        
+        .foto{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .sociais{
+            display: flex;
+            justify-content: space-around;
+            gap: 70px;
+        }
+        
+        .img{
+            gap: 55px;
+        }
+        
+        .menu-mobile.abrir{
+            visibility: visible;
+            height: calc(100vh - 1px);
+        }
         
     }
     
-    /* container */
-    .Gabriel{
-        font-size: 30PX;
-    }
-
-    .fotinha{
-        max-width: 80%;
-        max-height: 80%;
-    }
-
-    .foto{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
     
-    .sociais{
-        display: flex;
-        justify-content: space-around;
-        gap: 70px;
-    }
-
-    .img{
-        gap: 55px;
-    }
-   
-
-
- }
-
-
-
+    
 
 
 
