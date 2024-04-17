@@ -14,7 +14,7 @@ a {
     padding-inline: 16px;
 }
 
-@media(min-width:768px) {
+.@media(min-width:768px) {
     .container {
         max-width: 1520px;
         margin-left: auto;
@@ -62,7 +62,7 @@ a {
     display: none;
     border: none;
     background: none;
-    border-top: 3px solid white;
+    border-top: 3px solid #A2A2A2;
     cursor: pointer;
 }
 
@@ -72,12 +72,12 @@ a {
     display: block;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: #A2A2A2;
     margin-top: 5px;
 
 }
 
-@media (max-width: 750px) {
+.@media (max-width: 750px) {
     .hamburguer {
         display: block;
     }
@@ -106,7 +106,7 @@ a {
         pointer-events: all;
     }
 
-.container-hero{
+.container-heroo{
     flex-direction: column;
 
 
@@ -308,7 +308,55 @@ a {
     opacity: 0.6;
   }
 
- 
+ @media screen and (max-width: 700px){
+    
+    /* CABECALHO*/
+    .container-hero{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: space-around;
+        height: 340px;
+    }
+    /* menu */
+    .nav-list{
+        display: none;
+    }
+
+    .hamburguer{
+        display: block;
+        
+    }
+    
+    /* container */
+    .Gabriel{
+        font-size: 30PX;
+    }
+
+    .fotinha{
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .foto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .sociais{
+        display: flex;
+        justify-content: space-around;
+        gap: 70px;
+    }
+
+    .img{
+        gap: 55px;
+    }
+   
+
+
+ }
+
 
 
 
