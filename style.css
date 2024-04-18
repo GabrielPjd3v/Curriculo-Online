@@ -353,7 +353,7 @@ a {
             font-size: 30PX;
         }
         
-        .fotinha{
+        ...fotinha{
             max-width: 80%;
             max-height: 80%;
         }
