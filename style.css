@@ -126,10 +126,13 @@ a {
 
 }
 
-.Gabriell{
-
-
+button:hover, form .btn-enviar input[type=submit]:hover{
+    box-shadow: 0px 0px 0px #171717;
+    transform: scale(1.05);
 }
+
+
+
 .container-hero{
     max-width: 1520px;
     margin-left: auto;
@@ -328,6 +331,58 @@ a {
     padding: 20px 30px;
 
 }
+    .titulo{
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        opacity: 0.6;
+
+    }
+    section.formulario{
+        padding: 5rem 4%;
+        background-color: #262626;
+    }
+    
+    form{
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        gap: 10px;  
+        margin-top: 40px;         
+    }
+    form input, form textarea{
+        background-color: #171717;
+        border: 0;
+        outline: 0;
+        padding: 20px 15px;
+        border-radius: 15px;
+        color: #fff;
+        font-size: 15px;
+    }
+    form input::placeholder{
+        
+    }
+
+    form textarea{
+        resize: none;
+        height: 200px;
+    }
+
+    form .btn-enviar{
+        text-align: center ;
+    }
+
+    form .btn-enviar input[type=submit]{
+        width: 120px;
+        background-color: #171717;
+        color: #fff;
+        font-weight: 700;  
+        cursor: pointer; 
+        transition: .2s ;     
+
+    }
   
   @media screen and (max-width: 700px){
       
@@ -378,6 +433,7 @@ a {
             visibility: visible;
             height: calc(100vh - 1px);
         }
+        form 
         
     }
     
